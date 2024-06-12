@@ -6,5 +6,4 @@ class Calculation:
         self.operation = operation  # Store the operation function
 
     def get_result(self):
-        # Calls the stored operation with parameters a and b
-        return self.operation(self.a, self.b)
+        return self.operation(self.a, self.b) # Calls the stored operation with parameters a and b
