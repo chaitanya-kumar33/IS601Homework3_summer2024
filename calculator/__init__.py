@@ -1,6 +1,6 @@
 from calculator.calculation import Calculation
 from calculator.operations import add, subtract, multiply, divide
-
+#static methods implemented help to pass the data 
 class Calculator:
     @staticmethod
     def add(a,b):
